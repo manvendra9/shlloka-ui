@@ -1,0 +1,18 @@
+.image-course-yogasanas-wave5 {
+    position:absolute;
+    top: 40rem;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-person {
+        width: 0;
+    }
+
+    .image-course-yogasanas-wave5 {
+        width: 16%;
+    }
+}

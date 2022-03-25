@@ -1,0 +1,18 @@
+:root {
+    --color-primary : rgb(48, 54, 73);
+    --color-secondary: rgb(226, 199, 150);
+    --color-accent: rgb(48, 54, 73);
+    --color-background: rgb(252, 240, 238);
+
+    --color-heading: #0d47a1;
+
+    --color-border: lightgray;
+    --color-hover: #F5F5F5;
+    --color-background-gray: #FAFAFA;
+    --color-button: rgb(146, 160, 86);
+
+    --color-white : #FFFFFF;
+    --color-orange: orange;
+
+    --color-gray: gray;
+}

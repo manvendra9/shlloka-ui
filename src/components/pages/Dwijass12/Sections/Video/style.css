@@ -1,0 +1,25 @@
+.image-course-dwijass12-leaf1 {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    left: 8rem;
+}
+
+.image-course-dwijass12-leaf2 {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 8rem;
+    top: 48rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dwijass12-leaf1 {
+        width: 0%;
+    }
+
+    .image-course-dwijass12-leaf2 {
+        width: 0%;
+    }
+}

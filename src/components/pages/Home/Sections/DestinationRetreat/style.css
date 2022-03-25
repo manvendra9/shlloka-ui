@@ -1,0 +1,21 @@
+.container-text-destination-retreat {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+}
+
+.image-destination-retreat {
+    width: 48rem;
+}
+
+.wave-destination-retreat {
+    position:absolute;
+    z-index: -1; 
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-destination-retreat {
+        width: 100%;
+    }
+}

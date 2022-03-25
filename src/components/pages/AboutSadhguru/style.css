@@ -1,0 +1,86 @@
+.image-course-upa-yoga-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+    top: -8rem
+}
+
+.image-course-upa-yoga-wave4 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+}
+
+.image-course-upa-yoga-wave5 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;;
+}
+
+.image-course-upa-yoga-statue2 {
+    position:absolute;
+    z-index: -1; 
+    width: 24%;
+    right: 8rem;
+    top: 24rem;
+}
+
+.image-about-sadhguru-leaf{ 
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 8rem;
+}
+
+.container-about-sadhguru1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about-sadhguru1 {
+    width: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-upa-yoga-wave3  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave4  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave5  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-statue2  {
+        width: 0%;
+    }
+
+    .image-about-sadhguru-leaf{
+        width: 8%;
+    }
+
+    .container-about-sadhguru1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-about-sadhguru1 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .image-about-sadhguru1 {
+        width: 100%;
+    }
+}

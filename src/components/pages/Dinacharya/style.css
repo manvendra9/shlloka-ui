@@ -1,0 +1,67 @@
+.image-course-dinacharya-wave2 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    top: 16rem;
+}
+
+.image-course-dinacharya-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+    top: 16rem;
+}
+
+.image-course-dinacharya-wave4 {
+    position:absolute;
+    z-index: -1; 
+    top: 8rem;
+    width: 8%;
+}
+
+.image-course-upa-yoga-wave5 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;;
+}
+
+.image-course-upa-yoga-statue2 {
+    position:absolute;
+    z-index: -1; 
+    width: 24%;
+    right: 8rem;
+    top: 24rem;
+}
+
+.image-course-dinacharya-statues2 {
+    position:absolute;
+    z-index: -1; 
+    width: 20%;
+    right: 0;
+    top: 0rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dinacharya-wave3  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave4  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave5  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-statue2  {
+        width: 0%;
+    }
+
+    .image-course-dinacharya-statues2 {
+        width: 20%;
+    }
+}

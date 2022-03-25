@@ -1,0 +1,44 @@
+.image-yogic-food-takeaway {
+    width: 60%;
+}
+
+.image-yogic-food-participants {
+    width: 60%;
+}
+
+.image-course-surya-kriya-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 8%;
+    right: 0;
+    top: 24rem;
+}
+
+.image-course-surya-kriya-background {
+    position:absolute;
+    z-index: -1; 
+    width: 18%;
+    left: 16rem;
+    top: 16rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-surya-kriya-background {
+        width: 18%;
+        left: 1rem;
+        top: 0rem;
+    }
+
+    .image-yogic-food-takeaway {
+        width: 100%;
+    }
+
+    .image-yogic-food-participants {
+        width: 80%;
+    }
+
+    .image-course-surya-kriya-wave3 {
+        width: 12%;
+    }
+}

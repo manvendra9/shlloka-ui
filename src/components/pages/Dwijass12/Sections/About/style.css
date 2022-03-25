@@ -1,0 +1,24 @@
+.container-text-course-about-dwijass12 {
+    padding: 2rem 4rem;
+}
+
+.image-course-about-dwijass12 {
+    width: 48rem;
+}
+
+.image-course-dwijass12-wave1 {
+    position:absolute;
+    z-index: -1; 
+    width: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-dwijass12 {
+        width: 100%;
+    }
+
+    .image-course-dwijass12-wave1 {
+        width: 20%;
+    }
+}

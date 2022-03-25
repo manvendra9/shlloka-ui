@@ -1,0 +1,30 @@
+.image-yogic-food-takeaway {
+    width: 60%;
+}
+
+.image-yogic-food-participants {
+    width: 60%;
+}
+
+.image-course-surya-kriya-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 8%;
+    right: 0;
+    top: 24rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-yogic-food-takeaway {
+        width: 100%;
+    }
+
+    .image-yogic-food-participants {
+        width: 80%;
+    }
+
+    .image-course-surya-kriya-wave3 {
+        width: 12%;
+    }
+}

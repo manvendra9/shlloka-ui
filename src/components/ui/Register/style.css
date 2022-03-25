@@ -1,0 +1,47 @@
+.container-card-course-detail {
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 16px var(--color-gray);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.container-card-course-detail2 {
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 8px var(--color-gray);
+    padding: 2rem;
+    margin: 2rem;
+    width: 100%;
+    min-height: 16rem;
+    border-radius: 1rem;
+}
+
+.button-register {
+    background-color: var(--color-primary);
+}
+
+.ul-register {
+    padding: 0 0 0 2rem;
+    list-style: outside;
+}
+
+.course-detail-text {
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 0.2rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .container-card-course-detail {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .container-card-course-detail2 {
+        padding: 1rem;
+        margin: 1rem;
+        width: 90%;
+        min-height: 14rem;
+        border-radius: 1rem;
+    }
+}

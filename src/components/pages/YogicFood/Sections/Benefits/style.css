@@ -1,0 +1,39 @@
+.image-course-yogic-food-person {
+    position:absolute;
+    z-index: -2; 
+    width: 32%;
+    bottom : -12rem;
+    right: 8rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.image-course-yogic-food-wave4 {
+    position:absolute;
+    top: 28rem;
+    z-index: -1; 
+    width: 8%;
+    right: 0;
+}
+
+.image-course-yogic-food-pot2 {
+    position:absolute;
+    z-index: -1; 
+    width: 32%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-person {
+        width: 0;
+    }
+
+    .image-course-yogic-food-wave4 {
+        width: 12%;
+    }
+
+    .image-course-yogic-food-pot2 {
+        width: 24%;
+    }
+}

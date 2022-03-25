@@ -1,0 +1,31 @@
+.image-course-yogic-food-background-image-left {
+    max-width: 40%;
+}
+
+.image-course-yogic-food-background-image-right{
+    max-width: 40%;
+}
+
+.container-course-yogic-food-bakground-images {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    position: absolute; 
+    width: 100%;
+    padding: 8rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-background-image-left {
+        max-width: 40%;
+    }
+    
+    .image-course-yogic-food-background-image-right{
+        max-width: 40%;
+    }
+
+    .container-course-yogic-food-bakground-images {
+        padding: 4rem 0;
+    }
+}

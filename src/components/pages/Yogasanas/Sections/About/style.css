@@ -1,0 +1,38 @@
+.container-text-course-about-yogic-food {
+    padding: 2rem 4rem;
+}
+
+.image-course-about-yogic-food {
+    width: 48rem;
+}
+
+.image-course-yogasanas-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    left: 16rem;
+    top: 8rem;
+}
+
+.image-course-yogasanas-wave2 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    top: 40rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-wave1 {
+        width: 20%;
+    }
+
+
+    .image-course-yogasanas-leaf {
+        width: 0%;
+    }
+
+    .image-course-yogasanas-wave2 {
+        width: 16%;
+    }
+}

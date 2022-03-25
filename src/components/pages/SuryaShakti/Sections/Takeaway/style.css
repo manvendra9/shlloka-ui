@@ -1,0 +1,14 @@
+.image-course-surya-shakti-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+    top: 40rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-surya-shakti-wave3 {
+        width: 20%;
+    }
+}

@@ -1,0 +1,33 @@
+.image-course-about-bhuta-shuddhi {
+    width: 48rem;
+}
+
+.image-course-bhuta-shuddhi-wave2 {
+    position:absolute;
+    top: 40rem;
+    z-index: -1; 
+    width: 8%;
+}
+
+.image-course-bhastrika-kriya-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 8rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-bhuta-shuddhi {
+        width: 100%;
+    }
+
+    .image-course-bhuta-shuddhi-wave2 {
+        top: 0;
+        width: 10%;
+    }
+
+    .image-course-bhastrika-kriya-leaf {
+        width: 0%;
+    }
+}

@@ -1,0 +1,42 @@
+.container-course-wave-title {
+    max-width: 56rem;
+    padding-top: 4rem;
+}
+
+.course-wave-subtitle {
+    max-width: 50%;
+    min-height: 6rem;
+}
+
+.container-course-wave-quote {
+    text-align: right;
+    padding: 8rem;
+    max-width: 40%;
+    right: 0;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .course-wave-subtitle {
+        max-width: 40%;
+    }
+
+    .container-course-wave-quote {
+        max-width: 40%;
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 512px) {
+
+    .course-wave-subtitle {
+        max-width: 70%;
+    }
+
+    .container-course-wave-quote {
+        max-width: 70%;
+        padding: 0 2rem;
+    }
+}

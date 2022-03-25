@@ -1,0 +1,16 @@
+.image-course-yogic-food-person {
+    position:absolute;
+    z-index: -2; 
+    width: 32%;
+    bottom : -12rem;
+    right: 8rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-person {
+        width: 0;
+    }
+}

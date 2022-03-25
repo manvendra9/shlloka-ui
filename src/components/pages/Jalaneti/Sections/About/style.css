@@ -1,0 +1,41 @@
+.container-text-course-about-jalaneti {
+    padding: 2rem 4rem;
+}
+
+.image-course-about-jalaneti {
+    width: 48rem;
+}
+
+.image-course-jalaneti-wave2 {
+    position:absolute;
+    top: 40rem;
+    z-index: -1; 
+    width: 6%;
+}
+
+.image-course-jalaneti-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 16rem;
+    top: 24rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-jalaneti {
+        width: 100%;
+    }
+
+    .image-course-jalaneti-food {
+        width: 100%;
+    }
+
+    .image-course-jalaneti-wave2 {
+        width: 16%;
+    }
+
+    .image-course-jalaneti-leaf {
+        width: 0%;
+    }
+}

@@ -1,0 +1,14 @@
+@import "../../../styles/Color.css";
+
+.button-unselected-tab {
+    background: transparent;
+    color: var(--color-primary);
+    margin: 1rem;
+}
+
+.button-selected-tab {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    margin: 1rem;
+    font-weight: 800;
+}

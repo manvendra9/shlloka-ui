@@ -1,0 +1,14 @@
+.image-course-dwijass21-wave4 {
+    position:absolute;
+    z-index: -1; 
+    width: 8%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dwijass21-wave4 {
+        width: 16%;
+    }
+}

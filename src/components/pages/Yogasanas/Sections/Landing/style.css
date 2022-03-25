@@ -1,0 +1,42 @@
+.image-course-yogasanas-wave1 {
+    position:absolute;
+    z-index: -1; 
+    width: 60%;
+}
+
+.image-course-yogasanas-statues {
+    position:absolute;
+    z-index: -2; 
+    right: 0;
+    top:0;
+    width: 50%;
+}
+
+.container-yogasanas-landing-text {
+    padding: 4rem;
+    max-width: 48rem;
+}
+
+.container-yogasanas-quote {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding: 4rem;
+    max-width: 56rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogasanas-wave1 {
+        width: 98%;
+    }
+
+    .image-course-yogasanas-statues {
+        width: 0;
+    }
+
+    .container-yogasanas-landing-text {
+        padding: 2rem;
+        max-width: 100%;
+    }
+}

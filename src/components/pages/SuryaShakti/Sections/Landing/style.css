@@ -1,0 +1,35 @@
+.image-course-surya-shakti-wave {
+    position:absolute;
+    z-index: -1; 
+    width: 60%;
+}
+
+.image-course-surya-shakti-right {
+    position:absolute;
+    z-index: -2; 
+    right: 0;
+    top:0;
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-surya-shakti-wave {
+        width: 70%;
+    }
+
+    .image-course-surya-shakti-right {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+
+    .image-course-surya-shakti-wave {
+        width: 98%;
+    }
+
+    .image-course-surya-shakti-right {
+        width: 0%;
+    }
+}

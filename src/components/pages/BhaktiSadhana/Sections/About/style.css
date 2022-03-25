@@ -1,0 +1,70 @@
+.container-text-course-about-yogic-food {
+    padding: 2rem 4rem;
+}
+
+.image-course-about-yogic-food {
+    width: 48rem;
+}
+
+.image-course-yogic-food-wave1 {
+    position:absolute;
+    z-index: -1; 
+    width: 10%;
+}
+
+.image-course-surya-kriya-wave2 {
+    position:absolute;
+    top: 40rem;
+    z-index: -1; 
+    width: 6%;
+}
+
+.image-course-about-bhakti-sadhana {
+    width: 48rem;
+}
+
+.image-course-about-bhakti-sadhana2 {
+    width: 100%;
+}
+
+.image-course-bhakti-sadhana-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 8rem;
+    top: 8rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-yogic-food {
+        width: 100%;
+    }
+
+    .image-course-surya-kriya-wave2 {
+        top: 24rem;
+        width: 8%;
+    }
+
+    .image-course-about-bhakti-sadhana {
+        width: 100%;
+    }
+
+    .image-course-about-bhakti-sadhana2 {
+        width: 100%;
+    }
+
+    .image-course-bhakti-sadhana-leaf {
+        width: 0%;
+    }
+}
+
+
+@media screen and (max-width: 512px) {
+
+    .image-course-surya-kriya-wave2 {
+        top: 0rem;
+        width: 10%;
+    }
+}

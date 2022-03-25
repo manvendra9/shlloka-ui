@@ -1,0 +1,25 @@
+.image-course-bhuta-shuddhi-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+}
+
+.image-course-bhuta-shuddhi-pots {
+    position:absolute;
+    z-index: -1; 
+    width: 24%;
+    left: 8rem;
+    top: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-bhuta-shuddhi-wave3 {
+        width: 20%;
+    }
+
+    .image-course-bhuta-shuddhi-pots {
+        width: 0%;
+    }
+}

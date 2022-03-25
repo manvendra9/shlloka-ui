@@ -1,0 +1,47 @@
+.image-course-upa-yoga-wave3 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+    top: -8rem
+}
+
+.image-course-upa-yoga-wave4 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+}
+
+.image-course-upa-yoga-wave5 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;;
+}
+
+.image-course-upa-yoga-statue2 {
+    position:absolute;
+    z-index: -1; 
+    width: 24%;
+    right: 8rem;
+    top: 24rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-upa-yoga-wave3  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave4  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-wave5  {
+        width: 10%;
+    }
+
+    .image-course-upa-yoga-statue2  {
+        width: 0%;
+    }
+}

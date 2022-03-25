@@ -1,0 +1,15 @@
+.image-course-dwijass12-person {
+    position:absolute;
+    z-index: 1;
+    width: 24%;
+    bottom : 0rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dwijass12-person {
+        width: 18%;
+        top: 0;
+    }
+}

@@ -1,0 +1,31 @@
+.image-course-about-yogic-food {
+    width: 48rem;
+}
+
+/* ul {
+    padding-bottom: 2rem;
+}
+
+li {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+} */
+
+.image-course-yogic-food-wave2 {
+    position:absolute;
+    top: 16rem;
+    z-index: -1; 
+    width: 8%;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-yogic-food {
+        width: 100%;
+    }
+
+    .image-course-yogic-food-wave2 {
+        width: 12%;
+    }
+}

@@ -1,0 +1,60 @@
+@import "./Color.css";
+
+.text-online-course {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem 2rem 24rem;
+}
+
+.text-offline-course {
+    background-color: var(--color-secondary);
+    padding: 2rem 24rem 2rem 4rem;
+    text-align: right;
+}
+
+.text-destination-retreat-course {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+}
+
+.text-free-webinar{
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+    position: relative;
+    left: -2rem;
+    z-index: -1;
+}
+
+.text-testinomial {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+}
+
+.text-global-presence {
+    font-weight: 600;
+    color: var(--color-button);
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .text-online-course {
+        background-color: var(--color-secondary);
+        padding: 1rem 2rem;
+    }
+    
+    .text-offline-course {
+        background-color: var(--color-secondary);
+        padding: 1rem 2rem;
+        text-align: right;
+    }
+
+    .text-free-webinar{
+        left: 0;
+        top: -1rem;
+    }
+
+    .text-testinomial {
+        background-color: var(--color-secondary);
+        padding: 1rem 2rem;
+    }
+}

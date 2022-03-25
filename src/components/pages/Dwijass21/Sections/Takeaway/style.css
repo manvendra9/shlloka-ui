@@ -1,0 +1,32 @@
+.image-dwijass21-takeaway {
+    width: 60%;
+}
+
+.image-course-dwijass12-wave2 {
+    position:absolute;
+    z-index: -1; 
+    width: 10%;
+    right: 0;
+}
+
+.image-course-dwijass21-cow {
+    position:absolute;
+    z-index: -2; 
+    width: 32%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-dwijass21-takeaway {
+        width: 100%;
+    }
+
+    .image-course-dwijass12-wave2 {
+        width: 20%;
+    }
+
+    .image-course-dwijass21-cow {
+        width: 24%;
+
+    }
+}

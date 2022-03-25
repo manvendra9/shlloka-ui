@@ -1,0 +1,13 @@
+.image-course-yogasanas-wave4 {
+    position:absolute;
+    z-index: -1; 
+    width: 8%;
+    top: 40rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogasanas-wave4 {
+        width: 16%;
+    }
+}

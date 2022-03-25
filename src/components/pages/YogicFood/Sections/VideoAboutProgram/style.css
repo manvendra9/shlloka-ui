@@ -1,0 +1,27 @@
+.image-course-yogic-food-wave1 {
+    top: 8rem;
+    left: 0;
+    position:absolute;
+    z-index: -1; 
+    width: 1%;
+}
+
+.image-course-yogic-food-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    right: 8rem;
+    top: 48rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-wave1 {
+        width: 10%;
+    }
+
+
+    .image-course-yogic-food-leaf {
+        width: 0%;
+    }
+}

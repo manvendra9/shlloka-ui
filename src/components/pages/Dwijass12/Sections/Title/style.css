@@ -1,0 +1,31 @@
+.image-course-dwijass12-background-image-left {
+    max-width: 32%;
+}
+
+.image-course-dwijass12-background-image-right{
+    max-width: 32%;
+}
+
+.container-course-dwijass12-bakground-images {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    position: absolute; 
+    width: 100%;
+    padding: 8rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dwijass12-background-image-left {
+        max-width: 40%;
+    }
+    
+    .image-course-dwijass12-background-image-right{
+        max-width: 40%;
+    }
+
+    .container-course-dwijass12-bakground-images {
+        padding: 4rem 0;
+    }
+}

@@ -1,0 +1,15 @@
+.container-text-children-programs {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+}
+
+.image-children-programs {
+    width: 48rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-children-programs {
+        width: 100%;
+    }
+}

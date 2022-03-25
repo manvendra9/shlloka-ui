@@ -1,0 +1,14 @@
+.image-course-surya-kriya-wave5 {
+    position:absolute;
+    top: 80rem;
+    z-index: -1; 
+    width: 10%;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-surya-kriya-wave5 {
+        width: 16%;
+    }
+}

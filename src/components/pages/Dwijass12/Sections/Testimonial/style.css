@@ -1,0 +1,13 @@
+.image-course-dwijass12-wave3 {
+    top: 16rem;
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-dwijass12-wave3 {
+        width: 10%;
+    }
+}

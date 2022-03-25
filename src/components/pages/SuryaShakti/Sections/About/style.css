@@ -1,0 +1,46 @@
+.container-text-course-about-yogic-food {
+    padding: 2rem 4rem;
+}
+
+.image-course-about-yogic-food {
+    width: 48rem;
+}
+
+.image-course-surya-shakti-wave2 {
+    position:absolute;
+    top: 40rem;
+    z-index: -1; 
+    width: 6%;
+}
+
+.image-course-surya-shakti-leaf {
+    position:absolute;
+    z-index: -1; 
+    width: 16%;
+    left: 16rem;
+    top: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-about-yogic-food {
+        width: 100%;
+    }
+
+    .image-course-surya-shakti-wave2 {
+        top: 24rem;
+        width: 8%;
+    }
+
+    .image-course-surya-shakti-leaf {
+        width: 0%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+
+    .image-course-surya-shakti-wave2 {
+        top: 0rem;
+        width: 10%;
+    }
+}

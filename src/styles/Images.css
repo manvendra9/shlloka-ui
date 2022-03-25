@@ -1,0 +1,185 @@
+@import "./Color.css";
+
+.yogini {
+    width: 60rem;
+    height: auto;
+}
+
+.icon-quote-left {
+    height: 8rem;
+    margin-bottom: 16rem;
+}
+
+.icon-quote-right {
+    height: 8rem;
+    margin-top: 16rem;
+}
+
+.image-people-free-webinar {
+    width: 48rem;
+}
+
+.image-globe {
+    width: 48rem;
+    height: 48rem;
+}
+
+.leaves {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24rem;
+    height: 24rem; 
+    z-index: 1;
+}
+
+  .flower-divider {
+    padding: 2rem;
+    width: 20rem;
+    height: auto;
+}
+
+.yoga-benifits {
+    width: 100%;
+    height: auto; 
+}
+
+.logo-isha-hatha {
+    position: relative;
+    top : -3rem;
+    height: 12rem;
+    width: auto;
+    padding: 0 1rem;
+}
+
+.sathguru {
+    height: 14rem;
+    width: auto;
+    padding: 0 1rem;
+    position: relative;
+    top: -3rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .yogini {
+        width: 95%;
+        height: auto;
+    }
+
+    .icon-quote-left {
+        height: 4rem;
+        margin: 0;
+    }
+    
+    .icon-quote-right {
+        height: 4rem;
+        margin: 0;
+    }
+
+    .flower-divider {
+        width: 12rem;
+        height: auto;
+        padding: 2rem;
+      }
+
+    .yoga-benifits {
+        width: 100%;
+        height: auto; 
+        padding: 0; 
+    }
+
+    .logo-isha-hatha {
+        position: static;
+        top : -3rem;
+        height: 12rem;
+        width: auto;
+        padding: 0 1rem;
+    }
+    
+    .image-people-free-webinar {
+        width: 100%;
+    }
+
+    .sathguru {
+        height: 14rem;
+        width: auto;
+        padding: 0 1rem;
+        position: relative;
+        top: -3rem;
+    }
+
+    .image-globe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Background Images */
+
+.patanjali {
+    position: absolute;
+    z-index: -1; 
+    width: 24%;
+    top: 40rem; 
+    right: 0; 
+}
+
+.wave-1 {
+    position:absolute;
+    z-index: -1; 
+    width: 60%;
+}
+
+.wave-2 {
+    position: absolute;
+    z-index: -1; 
+    width: 32%; 
+    right: 0; 
+}
+
+.wave-3{
+    position: absolute;
+    z-index: -1; 
+    width: 14%; 
+    top: 20rem;
+    right: 0; 
+}
+
+.wave-4{
+    position: absolute;
+    z-index: -1; 
+    width: 14%; 
+    top: 60rem; 
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .patanjali {
+        position: absolute;
+        z-index: -1; 
+        width: 0%;
+        top: 14rem; 
+        right: 0; 
+    }
+
+    .wave-1 {
+        width: 98%;
+    }
+
+    .wave-2 {
+        top: -10rem;
+    }
+
+    .wave-3{
+        width: 24%; 
+        top: -40rem;
+    }
+
+    .wave-4{
+        top:40rem;
+        width: 24%;
+    }
+}

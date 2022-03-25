@@ -1,0 +1,28 @@
+.image-course-yogic-food-person {
+    position:absolute;
+    z-index: -2; 
+    width: 32%;
+    bottom : -12rem;
+    right: 8rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.image-course-bhuta-shuddhi-wave5 {
+    position:absolute;
+    z-index: -1; 
+    width: 6%;
+    right: 0;
+    top: 40rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-course-yogic-food-person {
+        width: 0;
+    }
+
+    .image-course-bhuta-shuddhi-wave5 {
+        width: 10%;
+    }
+}

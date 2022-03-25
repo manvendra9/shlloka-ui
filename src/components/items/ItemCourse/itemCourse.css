@@ -1,0 +1,63 @@
+/* Course */
+
+.card-course {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-white);
+    height: 24rem;
+    margin: 1.6rem 0.8rem 6rem 0.8rem; 
+    text-align: start;
+}
+  
+  .card-course:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    box-shadow: 0.1rem 0.1rem 1.5rem 0.2rem gray;
+  }
+
+
+.image-card-course {
+    width: 24rem;
+    height: 100%;
+    pointer-events: none;
+}
+
+.container-content-card-course {
+    padding: 1.6rem;
+    width: 48rem;
+}
+
+.container-text-card-course {
+    white-space: initial; 
+    height: 16rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .card-course {
+        flex-direction: column;
+        height: 90%;
+        width: 95%; 
+        margin: 1.6rem 0.8rem 6rem 0.8rem; 
+        text-align: start;
+    }
+
+    .image-card-course {
+        width: 100%;
+        height: auto;
+        pointer-events: none;
+    }
+
+    .container-content-card-course {
+        padding: 1.6rem;
+        width: 100%;
+    }
+
+    .container-text-card-course {
+        white-space: initial; 
+        height: 24rem;
+    }
+
+}
+
+  

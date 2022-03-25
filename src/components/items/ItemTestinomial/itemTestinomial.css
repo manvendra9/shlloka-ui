@@ -1,0 +1,33 @@
+
+.container-text-testinomial {
+    background-color: var(--color-secondary);
+    padding: 2rem 4rem;
+    width: 60%;
+}
+
+.image-testinomial-person {
+    width: 24rem;
+    height: 32rem;
+}
+
+.testinomial-name {
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+  
+  .testinomial-about {
+    text-align: right;
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .container-text-testinomial {
+        background-color: var(--color-secondary);
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+}

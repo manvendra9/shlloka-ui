@@ -1,0 +1,21 @@
+.image-yogic-food-takeaway {
+    width: 60%;
+}
+
+.image-course-yogic-food-people2 {
+    position:absolute;
+    z-index: -1; 
+    width: 32%;
+    top: -4rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image-yogic-food-takeaway {
+        width: 100%;
+    }
+
+    .image-course-yogic-food-people2 {
+        width: 24%;
+    }
+}
